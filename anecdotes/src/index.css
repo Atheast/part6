@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #303030;
+    color: #dedede;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.ancedotes {
+    display: flex;
+    flex-direction: column;
+}
+
+.ancedote {
+    margin: 10px;
+    border: 2px solid #0a2854;
+    background: #11448f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ancedote p {
+    margin-bottom: 5px;
+}
+
+button {
+    background: #118f22;
+    border: 1px solid #0e6119;
+    padding: 5px;
+    color: #dfdfdf;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #33af44;
+}
+
+form {
+    margin: 10px;
+}
+
+form input, .filter input {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.filter {
+    margin: 10px;
+}
